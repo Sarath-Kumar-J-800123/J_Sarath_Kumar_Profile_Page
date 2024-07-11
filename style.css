@@ -1,11 +1,11 @@
 @charset "ISO-8859-1";
 * {
     scroll-behavior: smooth;
-    font-family: sans-serif;
+    font-family: "Timers New Roman", Timer, serif;
 }
 
 body {
-    background-color: black;
+   font-family: "Timers New Roman", Timer, serif;
     background-size: cover;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 .menu ul li a {
-    color: white;
+    color: red;
     text-decoration: none;
     transition: .4s;
     -webkit-transition: .4s;
@@ -92,9 +92,9 @@ body {
     text-decoration: none;
     width: 40px;
     height: 40px;
-    border: 2px solid white;
+    border: 5px solid #47785E;
     border-radius: 50%;
-    color: white;
+    color: #88E9ED;
     font-size: 20px;
     background: transparent;
     display: inline-flex;
@@ -126,19 +126,19 @@ body {
     justify-content: center;
 }
 
-.sintro h1 i {
+.sintro h1 span {
     margin-left: 5px;
 }
 
-.sintro h2 i {
+.sintro h2 span {
     margin-left: 5px;
 }
 
-.sintro h1 i {
+.sintro h1 span {
     color: orange;
 }
 
-.sintro h2 i {
+.sintro h2 span {
     color: orange;
 }
 
@@ -147,6 +147,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .btn {
@@ -155,7 +156,7 @@ body {
     background: orange;
     border-radius: 40px;
     font-size: 16px;
-    color: white;
+    color: blue;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
@@ -192,7 +193,7 @@ body {
 h1 {
     line-height: 2px;
     font-size: 40px;
-    color: white;
+    color: #956DEA;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -225,12 +226,17 @@ h2 {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr);
-    color: white;
+    color: red;
     font-size: 40px;
     cursor: pointer;
+    border: 5px solid #47785E;
+    border-radius: 60%;
+    color: #F769B4;
+    
+    
 }
 
-.slills i {
+.slills span {
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
@@ -261,7 +267,7 @@ h2 {
 }
 
 #edu {
-    color: white;
+    color: #117F5B;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -270,6 +276,7 @@ h2 {
 
 .eduheading h2 {
     font-size: 20px;
+    color:#956DEA ;
 }
 
 .qualifications-container {
@@ -282,7 +289,7 @@ h2 {
 .qualifications {
     margin-top: 20px;
     margin-right: 40px;
-    color: white;
+    color: cyan;
 }
 
 .qualifications-img i {
@@ -428,9 +435,9 @@ h2 {
     text-decoration: none;
     width: 40px;
     height: 40px;
-    border: 2px solid white;
+    border: 2px solid #C832C1;
     border-radius: 50%;
-    color: white;
+    color: #319AD4;
     font-size: 20px;
     background: transparent;
     display: inline-flex;

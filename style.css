@@ -190,7 +190,7 @@ body {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-     border: 5px solid #865A17;
+    border: 5px solid #865A17;
 }
 
 h1 {
@@ -232,7 +232,7 @@ h2 {
     color: red;
     font-size: 40px;
     cursor: pointer;
-    border: 5px solid #47785E;
+    border: 5px solid green;
     border-radius: 60%;
     color: #F769B4;
     
@@ -368,24 +368,26 @@ h2 {
     margin-top: 20px;
     margin-right: 10px;
     font-size: 20px;
-    color: white;
+    color: green;
 }
 
 .contact-text {
     width: 100%;
-    color: white;
+    color: #0FC6ED;
 }
 
 .contact-text a {
     color: orange;
     text-decoration: none;
+    cursor: pointer;
+    transition: o.5s;
 }
 
 
 /* -------------------------footer--------------------------- */
 
 .footer {
-    color: white;
+    color: #C832C1;
 }
 
 .footer-text {

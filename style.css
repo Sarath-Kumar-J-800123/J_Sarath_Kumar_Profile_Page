@@ -473,7 +473,7 @@ h2 {
     text-decoration: none;
 }
 
-.scroll-bar a i {
+.scroll-bar a span {
     color: white;
     height: 30px;
     width: 26px;
@@ -488,7 +488,7 @@ h2 {
     -o-border-radius: 2px;
 }
 
-.scroll-bar a i:hover {
+.scroll-bar a span:hover {
     background-color: white;
     color: orange;
 }

@@ -9,21 +9,6 @@ body {
     background-size: cover;
 }
 
-
-/* .btn {
-    background-color: #ffa500;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 10px;
-} */
-
 .header {
     padding: 0px 100px;
 }
@@ -232,7 +217,7 @@ h2 {
     color: red;
     font-size: 40px;
     cursor: pointer;
-    border: 5px solid #6A533B;
+    border: 5px solid green;
     border-radius: 60%;
     color: #F769B4;
     
@@ -322,6 +307,15 @@ h2 {
 
 .project-text {
     color: white;
+     align-items: center;
+    padding: 0px 100px;
+    font-size: 20px;
+}
+.project-text1 {
+    color: white;
+     align-items: center;
+    padding: 0px 100px;
+    font-size: 20px;
 }
 
 .project-text h1 {
@@ -329,7 +323,11 @@ h2 {
     text-decoration: underline;
     font-size: 25px;
 }
-
+.project-text1 h1 {
+    color: orange;
+    text-decoration: underline;
+    font-size: 25px;
+}
 .project-text p {
     align-items: center;
     padding: 0px 100px;
@@ -356,6 +354,83 @@ h2 {
     padding: 0px 100px;
     font-size: 20px;
 }
+
+/* ---------------Tech-------------- */
+#c {
+    
+    color: #8AAFDA;
+    float: left;
+    width: 50%;
+    
+    display: grid;
+    gap: 1.0rem;
+  }
+  #c1 {
+   
+    color: #8AAFDA;
+    float: right;
+    padding: -5px 0px;
+    display: grid;
+    gap: 1.0rem;
+    
+  }
+  #c2 {
+    
+    
+    color: #8AAFDA;
+    float: right;
+    padding-right: 200px; 
+    padding-top: 20px 0px;
+    display: grid;
+    gap: 1.0rem;
+    align-content: center;
+    
+  }
+  #c3 {
+    
+    color: #8AAFDA;
+    float: right;
+    padding-right: 210px; 
+    padding-top: 10px 0px; 
+    
+    display: grid;
+    gap: 1.0rem;
+  
+  
+  }
+  #c4 {
+    
+    color: #8AAFDA;
+    float: inherit;
+    width: 50%;
+    display: grid;
+    gap: 1.0rem;
+  
+   
+  
+  
+  }
+  #h1{
+  color: #699E6A;
+  font-size: 15px;
+  }
+  #h2{
+  color: #699E6A;
+  font-size: 15px;
+  }
+  #h3{
+  color: #699E6A;
+  font-size: 15px;
+  }
+  #h4{
+  color: #699E6A;
+  font-size: 15px;
+  }
+  #h5{
+  color: #699E6A;
+  padding-top: 40px;
+  font-size: 15px;
+  }
 
 
 /* --------------------CONTACT---------------------- */

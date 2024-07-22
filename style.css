@@ -58,7 +58,7 @@ body {
     color: orange;
     cursor: pointer;
 }
- .sidebar {
+ /* .sidebar {
         background-color: rgba(71, 69, 69, 0.826);
         position: fixed;
         padding: 0px 0px;
@@ -91,7 +91,7 @@ body {
         color: white;
         text-decoration: none;
         transition: .2s;
-    }
+    } */
 
 /* ---------------------home--------------------------------- */
 
@@ -617,13 +617,13 @@ a{
 
 /* --------------------------different-screens------------------------ */
 
-/* @media (max-width: 1080px) {
+ @media screen and (max-width: 1080px) and and (min-width: 200px) {
     .header {
         padding: 0px 0px;
     }
-} */
+} 
 
-@media screen and (max-width: 600px) and (min-width: 200px) {
+/* @media screen and (max-width: 600px) and (min-width: 200px) {
     .header {
         padding: 0px 30px;
         width: fit-content;
@@ -846,4 +846,4 @@ a{
     .intern-description {
         padding: 0px 10px;
     }
-}
+} */

@@ -617,7 +617,7 @@ a{
 
 /* --------------------------different-screens------------------------ */
 
- @media screen and (max-width: 1080px) and and (min-width: 200px) {
+ @media (max-width: 1080px) {
     .header {
         padding: 0px 0px;
     }

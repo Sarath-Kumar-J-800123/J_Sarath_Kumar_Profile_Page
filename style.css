@@ -573,8 +573,8 @@ h2 {
     cursor: pointer;
 }
 a{
-	color: red;
-	  text-decoration: none;
+     color: #778899;
+     text-decoration: none;
     transition: .4s;
     -webkit-transition: .4s;
     -moz-transition: .4s;

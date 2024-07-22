@@ -658,9 +658,9 @@ a{
     }
     .menu-icon {
         display: flex;
-    }
+    } */
     /* ---------------------------home-------------------------------------- */
-    .icons {
+    /* .icons {
         grid-area: icon;
     }
     .intro {
@@ -696,9 +696,9 @@ a{
     }
     .cbtn {
         padding-top: 30px;
-    }
+    } */
     /* ------------------------------ABOUT----------------------------- */
-    .about {
+   /* .about {
         flex-direction: column;
     }
     .about-img {
@@ -720,24 +720,24 @@ a{
     .qualifications {
         margin-top: 0px;
         margin-right: 0px;
-    }
+    } */
     /* -----------------------------------PROJECTS-------------------------------- */
-    .project-text p {
+   /* .project-text p {
         padding: 0px 0px;
-    }
+    } */
     /* -----------------------------------internship-------------------------------- */
-    .intern-heading {
+  /*  .intern-heading {
         margin-left: 20px;
     }
     .intern-description {
         padding: 0px 10px;
     }
-}
+} */
 
 
 /* ------------------------------different-screen----------------------------- */
 
-@media screen and (max-width: 1000px) and (min-width: 600px) {
+/* @media screen and (max-width: 1000px) and (min-width: 600px) {
     .header {
         padding: 0px 30px;
         width: fit-content;
@@ -772,9 +772,9 @@ a{
     }
     .menu-icon {
         display: flex;
-    }
+    } */
     /* ---------------------------home-------------------------------------- */
-    .icons {
+  /*  .icons {
         grid-area: icon;
     }
     .intro {
@@ -810,9 +810,9 @@ a{
     }
     .cbtn {
         padding-top: 30px;
-    }
+    } */
     /* ------------------------------ABOUT----------------------------- */
-    .about {
+   /* .about {
         flex-direction: column;
     }
     .about-img {
@@ -836,11 +836,11 @@ a{
         margin-right: 0px;
     }
     /* -----------------------------------PROJECTS-------------------------------- */
-    .project-text p {
+   /* .project-text p {
         padding: 0px 0px;
-    }
+    } */
     /* -----------------------------------internship-------------------------------- */
-    .intern-heading {
+ /*   .intern-heading {
         margin-left: 20px;
     }
     .intern-description {

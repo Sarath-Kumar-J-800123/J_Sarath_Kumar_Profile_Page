@@ -1,7 +1,7 @@
 @charset "ISO-8859-1";
 * {
     scroll-behavior: smooth;
-    font-family: "Timers New Roman", Timer, serif;
+    
 }
 
 body {
@@ -101,7 +101,7 @@ body {
 }
 
 .intro {
-    font-size: 20px;
+    font-size: 10px;
     top: 100px;
     left: 20px;
 }
@@ -356,7 +356,7 @@ h2 {
 }
 
 /* ---------------Tech-------------- */
-#c {
+/* #c {
     
     color: #8AAFDA;
     float: left;
@@ -431,7 +431,7 @@ h2 {
   padding-top: 40px;
   font-size: 15px;
   }
-
+*/
 
 /* --------------------CONTACT---------------------- */
 
@@ -568,11 +568,24 @@ h2 {
     color: orange;
 }
 
+ a:hover{
+	color: orange;
+    cursor: pointer;
+}
+a{
+	color: red;
+	  text-decoration: none;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
 
 /* --------------------------different-screens------------------------ */
 
-@media (max-width: 1080px) {
+/*@media (max-width: 1080px) {
     .header {
         padding: 0px 0px;
     }
-}
+}*/
